@@ -15,7 +15,7 @@ Open up a new 'Empty Project' or choose from a variety of 'Templates'
 
 You can even search and filter. 
 
-Here is a breakdown of the Project Environment, which you'll become very familiar: ![](images/ProjectLayout.png)
+Here is a breakdown of the Project Environment, which you'll become very familiar: ![](ScreenShots/ProjectLayout.png)
 
 Once you've opened your Template or Empty Project go ahead and click **"File>Save"**
 
@@ -46,33 +46,33 @@ PhoneGap --> iOS or Android
 # Creating Tiled Backgrounds
 Right-click Inside the Layout area and select **"Insert new object"**
 
-![](images/tilebackground1.png)
+![](ScreenShots/tilebackground1.png)
 
 Select **"Tiled Background"** and click **"Insert"**
 
 Then click inside the Layout area then click **"Open Icon"** to load an image:
-![](images/Tilebackground2.png)
+![](ScreenShots/Tilebackground2.png)
 
 Select **bg.png** from the images folder. (*Note: this may look different on your computer*)
-![](images/Tilebackground3.png)
+![](ScreenShots/Tilebackground3.png)
 
 Close the preview pop-up window and you'll notice extra space in the Layout area. 
 
 ## Special Note:
 Remember you need to know your X and Y. 
-![](images/Graphs.png)
+![](ScreenShots/Graphs.png)
 
 Now update your tile positions:
-![](images/Tilebackground4.png)
+![](ScreenShots/Tilebackground4.png)
 
 Select Layout 1 and Update your sizes:
-![](images/Tilebackground5.png)
+![](ScreenShots/Tilebackground5.png)
 
 Now when you zoom in or out you can only see the Tiled Background. 
 
 ## Adding Layers
 Start by clicking the layers tab on the right:
-![](images/Layers1.png)
+![](ScreenShots/Layers1.png)
 
 Click the **"Edit icon"** (pencil) to rename Layer 0. Rename it to *"Background"* and click the **"Lock Symbol"**
 
@@ -85,20 +85,20 @@ That's it for layers!
 ## Mouse & Keyboard Support (aka Hidden Objects)
 
 Start by selecting the **"Main Layer"**
-![](images/Hiddenobjects1.png)
+![](ScreenShots/Hiddenobjects1.png)
 
 Right click and select **"Insert new object"**:
-![](images/Hiddenobjects2.png)
+![](ScreenShots/Hiddenobjects2.png)
 
 Select **"Mouse Icon"** then click **"Insert"**
 
 Again, right click andselect **"Insert new object"**:
-![](images/Hiddenobjects4.png)
+![](ScreenShots/Hiddenobjects4.png)
 
 Select **"Keyboard Icon"** then click **"Insert"**
 
 Notice both Mouse and Keyboard are added to objects:
-![](images/Hiddenobjects6.png)
+![](ScreenShots/Hiddenobjects6.png)
 
 ## Sprites & Game Characters
 
@@ -107,12 +107,12 @@ As before, right click and select **"Insert new object"**
 Select the **"Sprite Icon"** then click **"Insert"**
 
 Click inside Layout area:
-![](images/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
+![](ScreenShots/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
 
 Select **player.png** from the images folder and click **"Open"**
 
 Close the pop-up window and you'll see your Sprite character in the Layout window.
-![](images/Sprites2.png)
+![](ScreenShots/Sprites2.png)
 
 ## Adding Non-Playable Characters (NPCs)
 
@@ -123,12 +123,12 @@ As before, right click and select **"Insert new object"**
 As before, select the **"Sprite Icon"** then click **"Insert"**
 
 Click inside Layout area:
-![](images/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
+![](ScreenShots/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
 
 Select **monster.png** from the images folder and click **"Open"**
 
 Close the pop-up window and you'll see your Monster character in the Layout window.
-![](images/Monster1.png)
+![](ScreenShots/Monster1.png)
 
 ## Adding Other Game Objects
 We'll be adding in bullets and explosions!
@@ -138,12 +138,12 @@ As before, right click and select **"Insert new object"**
 Select the **"Sprite Icon"** then click **"Insert"**
 
 Click inside Layout area:
-![](images/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
+![](ScreenShots/Sprites1.png) then click the **"Open Icon (folder)"** to load an image.
 
 Select **bullet.png** from the images folder and click **"Open"**
 
 Close the pop-up window and you'll see your Bullet in the Layout window.
-![](images/Bullet1.png)
+![](ScreenShots/Bullet1.png)
 
 As before, right click and select **"Insert new object"**
 
@@ -154,13 +154,13 @@ Click inside Layout area then click the **"Open Icon (folder)"** to load an imag
 Select **explode.png** from the images folder and click **"Open"**
 
 Close the pop-up window and you'll see your Explosion in the Layout window.
-![](images/Explosion1.png)
+![](ScreenShots/Explosion1.png)
 
 ## Organizing Your Layout
 Now we're going to rename your Sprites and arrange them properly. 
 
 First, Right-click to rename each Sprite:
-![](images/Layout1.png)
+![](ScreenShots/Layout1.png)
 
 **Rename them:**
 
@@ -175,10 +175,10 @@ Explosion
 Next, Zoom-out in the Layout window so you can see the end of the Background Tile.
 
 Then move the Bullet and Explosion outside the Layout, like:
-![](images/Layout2.png)
+![](ScreenShots/Layout2.png)
 
 It should now look like:
-![](images/Layout3.png)
+![](ScreenShots/Layout3.png)
 
 ## Player Movement
 Let's get things moving!
@@ -186,13 +186,13 @@ Let's get things moving!
 First, select your Player from the Projects window on the right.
 
 Click, **"Behaviors"** 
-![](images/Movement1.png)
+![](ScreenShots/Movement1.png)
 
 Then **"Add New"** 
-![](images/Movement2.png)
+![](ScreenShots/Movement2.png)
 
 Choose your Movement:
-![](images/Movement3.png)
+![](ScreenShots/Movement3.png)
 
 Select **"8 Direction"** and then click **"Add"**
 
@@ -209,7 +209,7 @@ Very similar to adding Player Movements.
 As before, select **"Bullet"** from the Projects window. Then **"Behaviors"** 
 
 Then **"Add New"** 
-![](images/Movement2.png)
+![](ScreenShots/Movement2.png)
 
 Select **"Bullet"** and then click **"Add"**
 
@@ -224,7 +224,7 @@ Close the pop-up.
 Now we need to update the speed and fade out timing. 
 
 Update the Properties of each item to:
-![](images/Behaviors1.png)
+![](ScreenShots/Behaviors1.png)
 
 ## Moving NPCs
 
@@ -241,52 +241,52 @@ Select **"Bullet"** and then click **"Add"**
 Close the pop-up.
 
 Now we need to update the speed like before. 
-![](images/NPCmovement1.png)
+![](ScreenShots/NPCmovement1.png)
 
 Once updated let's add more Monsters. 
-![](images/NPCmovement2.png)
+![](ScreenShots/NPCmovement2.png)
 
 ##Accepting User Input
 
 Let's add events to the Event Sheet:
-![](images/Userinput1.png)
+![](ScreenShots/Userinput1.png)
 
 An **"Event"** happens when a Condition is true for an object:
-![](images/Userinput2.png)
+![](ScreenShots/Userinput2.png)
 
 Right-click then **"Add Event"**:
-![](images/Userinput3.png)
+![](ScreenShots/Userinput3.png)
 
 Select **"System"** then **"Next"**
 Select **"Every Tick"** then **"Done"**
  Click to **"Add Action"**:
-![](images/UserInput4.png)
+![](ScreenShots/UserInput4.png)
 
 Select **"Player"** then **"Next"**
 Select **"Set angle toward position"** then **"Next"**
 
 Enter Parameters:
-![](images/UserInput5.png)
+![](ScreenShots/UserInput5.png)
 
 Should end up looking like this:
-![](images/UserInput6.png)
+![](ScreenShots/UserInput6.png)
 
 ## Spawning Other Objects
 
 Other objects, for example, bullets.
 
 Click to **"Add Event"**:
-![](images/Shootbullet.png)
+![](ScreenShots/Shootbullet.png)
 
 
 Select **"Mouse"** then **"Next"**
 Select **"On click"** then **"Next"**
 
 Click **"Done"**:
-![](images/Shootbullet2.png)
+![](ScreenShots/Shootbullet2.png)
 
 Click to **"Add Action"**:
-![](images/Shootbullet3.png)
+![](ScreenShots/Shootbullet3.png)
 
 Select **"Player then"** then **"Next"**
 Scroll down a bit and select **"Spawn another"** then **"Next"**
@@ -295,28 +295,28 @@ In the pop-up window click **"Click to choose"**
 Select **"Bullet"** then **"OK"**
 
 Enter Layer and Image Point values:
-![](images/Shootbullet4.png)
+![](ScreenShots/Shootbullet4.png)
 
 Should look like this:
-![](images/Shootbullet5.png)
+![](ScreenShots/Shootbullet5.png)
 
 ## Image Points
 
 Here we'll fix your Bullets.
 
 To start Right-click **"Player"** then **"Edit Animations"**:
-![](images/Fixbullets1.png)
+![](ScreenShots/Fixbullets1.png)
 
 Then: 
-![](images/Fixbullets2.png)
+![](ScreenShots/Fixbullets2.png)
 
 Click to **"Add (plus symbol+)"**
 
 Then:
-![](images/Fixbullets3.png)
+![](ScreenShots/Fixbullets3.png)
 
 Then:
-![](images/Fixbullets4.png)
+![](ScreenShots/Fixbullets4.png)
 
 Then update **"Image Point"** to equal **"1"** and click **"Done"** 
 
@@ -361,17 +361,17 @@ Select **"Bullet"** then **"Next"**
 Scroll down a bit, then select **"Destroy"** then **"Done"**
 
 Your items should look like this:
-![](images/Destroymonsters1.png)
+![](ScreenShots/Destroymonsters1.png)
 
 ## Basic AI
 
 Let's Randomize Monsters.
 
 First, go to your **"Event Sheet"**:
-![](images/Randommonsters1.png)
+![](ScreenShots/Randommonsters1.png)
 
 Click to **"Add Event"**:
-![](images/Randommonsters2.png)
+![](ScreenShots/Randommonsters2.png)
 
 Select **"System"** then **"Next"**
 Scroll down a bit, then select **"On start of layout"** then **"Done"**
@@ -382,7 +382,7 @@ Select **"Set angle"** then **"Next"**
 Enter Angle = **"random(360)"** then **"Done"**
 
 Should look like this:
-![](images/Randommonsters3.png)
+![](ScreenShots/Randommonsters3.png)
 
 ## Improved AI
 
@@ -407,7 +407,7 @@ X= Player.X
 Y= Player.Y
 
 Should look like this:
-![](images/SmartMonsters1.png)
+![](ScreenShots/SmartMonsters1.png)
 
 ## Instance Variables - NPC Health
 
@@ -416,7 +416,7 @@ The Monsters won't go down easy!
 Select **"Monster"** front the Projects window
 
 Select **"Instance Variables"**:
-![](images/Addinghealth1.png)
+![](ScreenShots/Addinghealth1.png)
 
 Click to **"Add New (plus sign)"**
 
@@ -434,7 +434,7 @@ Click **"OK"**
 
 Right-click **"Monsters - Destroy"**
 Then click **"Replace Action"**:
-![](images/Addinghealth2.png)
+![](ScreenShots/Addinghealth2.png)
 
 Select **"Monster"** then **"Next"**
 Then select **"Subtract from"** then **"Next"**
@@ -444,7 +444,7 @@ Enter Value = 1
 Then **"Done"**
 
 Should look like this:
-![](images/Addinghealth3.png)
+![](ScreenShots/Addinghealth3.png)
 
 ## Affecting NPC Health
 
@@ -487,14 +487,14 @@ Select **"Monster"** then **"Next"**
 Scroll down a bit, then select **"Destroy"** then **"Done"**
 
 Should look like this:
-![](images/Destroymonsters2.png)
+![](ScreenShots/Destroymonsters2.png)
 
 ## Global Variables
 
 Now we need to add some scoring.
 
 First, Right-click in the Event sheet 1 area:
-![](images/Addscore1.png)
+![](ScreenShots/Addscore1.png)
 
 Enter Values for:
 
@@ -511,7 +511,7 @@ Constant = (check the box)
 Click **"OK"**
 
 Then scroll up and it should show:
-![](images/Addscore2.png)
+![](ScreenShots/Addscore2.png)
 
 Scroll back to the bottom and click **"Add Action"**
 
@@ -521,20 +521,20 @@ Select **"Add to"** then **"Next"**
 Enter Value = 1 click **"Done"** 
 
 Should look like this:
-![](images/Addscore3.png)
+![](ScreenShots/Addscore3.png)
 
 ## Adding a Heads-Up Display (HUD)
 
 Start by clicking **"Layers"**
 
-![](images/Hud1.png)
+![](ScreenShots/Hud1.png)
 
 Add a new layer by clicking the **"+ symbol"**
 
 Right-click the new layer and click **"Rename"** Change the name to **"HUD"**
 
 Now let's change the Parallax values:
-![](images/Hud2.png)
+![](ScreenShots/Hud2.png)
 
 
 ----------
@@ -550,7 +550,7 @@ Learn more about Parallax here:
 ## Ok, back to HUD...
 
 Let's set the HUD's parallax:
-![](images/Hud3.png)
+![](ScreenShots/Hud3.png)
 
 It's that simple!
 
@@ -559,25 +559,25 @@ It's that simple!
 Wait what's the score??
 
 First:
-![](images/Displaytext1.png)
+![](ScreenShots/Displaytext1.png)
 
 Select **"Text"** then **"Insert"**
 Click to place Text object:
-![](images/Displaytext2.png)
+![](ScreenShots/Displaytext2.png)
 
 You'll notice:
-![](images/Displaytext3.png)
+![](ScreenShots/Displaytext3.png)
 
 Now let's change properties:
-![](images/Displaytext4.png)
+![](ScreenShots/Displaytext4.png)
 
 ## Updating the HUD
 
 First we need to know how to combine text. See below:
-![](images/Combinetext1.png)
+![](ScreenShots/Combinetext1.png)
 
 In the game it will look like:
-![](images/Combinetext2.png)
+![](ScreenShots/Combinetext2.png)
 
 Now, find **"System>Every Tick"** and click **"Add Action"** 
 
@@ -591,7 +591,7 @@ Enter in the Text box:
 Click **"Done"** 
 
 Should look like:
-![](images/Displayscore1.png)
+![](ScreenShots/Displayscore1.png)
 
 ## Spawning NPCs
 
@@ -624,7 +624,7 @@ Y = random(1024)
 And click **"Done"** 
 
 Should look like this:
-![](images/Spawnmonsters1.png)
+![](ScreenShots/Spawnmonsters1.png)
 
 ## Destroying the Player :*(
 
@@ -645,7 +645,7 @@ Select **"Player"** then **"Next"**
 Select **"Destroy"** then **"Done"**
 
 Should look like this:
-![](images/Destroyplayer1.png)
+![](ScreenShots/Destroyplayer1.png)
 
 ----------
 
