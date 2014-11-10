@@ -74,7 +74,7 @@ Now when you zoom in or out you can only see the Tiled Background.
 Start by clicking the layers tab on the right:
 ![](ScreenShots/Layers1.png)
 
-Click the **"Edit icon"** (pencil) to rename Layer 0. Rename it to *"Background"* and click the **"Lock Symbol"**
+Click the **"Edit icon"** (pencil) to rename Layer 0. Rename it to *"Background"*.
 
 Add a new layer by pressing the **"Plus Sign Icon"**
 
